@@ -15,11 +15,13 @@ function pulsador() {
     }
     if (conta == 4) {
         document.querySelector("#pulsada").innerHTML = "HAS VUELTO A PULSAR EL BOTON!" 
-        document.querySelector("#plusada").style.color = "white";
-        document.querySelector("#plusada").style.background = "black";
+        document.querySelector("#pulsada").style.color = "white"
+        document.querySelector("#pulsada").style.background = "black";
     }
     if (conta == 5) {
         document.querySelector("#pulsada").innerHTML = "Has pulsado el boton" 
         conta = 1
+        document.querySelector("#pulsada").style.color = "black"
+        document.querySelector("#pulsada").style.background = null;
     }
 }
