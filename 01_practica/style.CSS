@@ -3,18 +3,36 @@
     margin: 0;
 }
 
-.pot {
-    background-color: rgb(110, 110, 110);
-    height : 100vh;
-}
-
-.two {
+.one {
     background-color: goldenrod;
     height : 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.two {
+    background-color: darkred;
+    height : 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#subtitulo {
+    color: rgb(216, 164, 33);
+    font-style: italic;
 }
 
 .three {
-    background-color: darkred;
+    background-color: rgb(110, 110, 110);
     height : 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
