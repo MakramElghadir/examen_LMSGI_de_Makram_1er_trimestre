@@ -8,16 +8,6 @@ Fecha: 21/12/2023
 
 ## Inicio
 
-Para empezar, crea un fork de este repositorio, clónalo en tu ordenador y abre el proyecto con VSCode.
+El sitio web que he programado tiene 3 partes, cadas con su propia color y el mismo tamaño. La primera, en amarillo, tiene simply un texto centrado horizontalmente y verticalmente. El segundo, en rojo sombro, tiene un imagen, con un titulo large sobre ella y un pequeño subtitulo curvisvo en amarillo. La tercera, en gris, tiene un botton. Quando el utilizador pulsa el botton, un texto aparece. Y cada vez el utilizador pulsa el botton, el texto cambio. Justa el cuatro vez donde el texto recive un background negro y letras blancos. Un pulso suplementario repleca este terxo con el mismo que el utilizador tiene en su primera pulsa, y continue el cyclo.
 
-Edita este fichero README.md con tu nombre y la fecha de hoy, una vez hagas un commit inicial, estas listo para empezar!
-
-El examen está dividido en 3 partes, cada una de ellas en una carpeta diferente:
-
-- `00_teoria`: Varias preguntas de teoría.
-- `01_practica`: Ejercicio con html+js.
-- `02_docs`: Documentación del ejercicio realizado.
-
-Es importante que realizes primero la parte de teoría, aunque las partes de práctica y documentación se pueden realizar como quieras.
-
-Cada directorio tiene instrucciones en su interior, léelas con atención, y si tienes alguna duda, preguntame!
+el button necessito un numero (que aumenta cada vez que el utilizador pulsa el boton) para monstrar el mensage apropriado en orden. Quando su valor es igual a 5 (el pulso que viene quando el texto tiene su quadrado negro y letras blancas), remplaza el texto con el primero texto, borra el background negro y definida el numero tan 1. 
